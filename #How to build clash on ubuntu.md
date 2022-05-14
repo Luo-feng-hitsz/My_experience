@@ -14,7 +14,7 @@ Download:https://github.com/Dreamacro/clash/releases
 >>6. wget -O config.yaml [订阅链接]
 >>7. wget -O Country.mmdb https://www.sub-speeder.com/client-download/Country.mmdb
 >>8. chmod +x clash 
->>9. ./clash -d
+>>9. ./clash -d .
 
 >>http://clash.razord.top/#/proxies
 >>10. open config.yaml
