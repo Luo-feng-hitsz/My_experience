@@ -35,6 +35,18 @@ git checkout branchname
 git checkout -b newBranch 
 ```
 
+删除分支：
+
+```bash
+git branch -d name
+```
+
+例子：如何把远程分支的东西拉到新的本地分支上，并对上面的东西进行修改，即通过本地来改变远程
+
+首先git checkout -b newbranch origin/name
+
+记得git pull一下（我的理解是建立对应关系，clone也是类似的），之后正常add commit push就行，不会耽误你add和commit，所以在push之前pull就行
+
 ## git远程仓库相关的操作
 
 ### 基础操作
